@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/online_learning
     username: root
-    password: Sravani@123
+    password: Enter your passowrd
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -17,9 +17,11 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
 
 jwt:
-  secret: 8x!Ae@2A$wRzU9C0kTpNqL1mHfKd7XsP
+  secret: Your secret key
+  Sample ex;8x!Ae@2A$wRzU9C0kTpNqL1mHfKd7XsP
   expiration: 3600000 # 1 hour in milliseconds
 logging:
   level:
     org.springframework.security: DEBUG
+
 
